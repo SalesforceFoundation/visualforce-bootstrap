@@ -2,7 +2,10 @@ Twitter Bootstrap for Visualforce
 =================
 
 ## Support for Visualforce
-This flavor of Bootstrap has been modified to play nice (or at least nicer) with Visualforce by including a higher level of specificity to the CSS.
+This flavor of Bootstrap has been modified to play nice (or at least nicer) with Visualforce by including a higher level of specificity to the CSS. If you have any questions or issues, post them in the issues or do a pull request if you add/fix/change anything that might be useful for others.
+
+Currently, only `css/bootstrap.css` has undergone modifications.
+
 
 
 ## Getting Started
@@ -11,7 +14,7 @@ Clone the repo, `git clone git@github.com:colinloretz/visualforce-bootstrap.git`
 
 
 ## Adding Bootstrap as a Static Resource
-Create a zip archive of all the assets. In Salesforce, upload this zip file as a static resource. You can do so under 
+Create a zip archive of all the assets. In Salesforce, upload this zip file as a static resource. You can do so under **Setup > Develop > Static Resources**.
 
 
 
@@ -25,6 +28,7 @@ In order to make everything look neat, be sure to wrap all of your Bootstrap HTM
 	<!-- Bootstrap HTML markup here -->
 	
 	</div>
+	
 
 ## Original Bootstrap Authors
 Thank you for all your work on Bootstrap!
